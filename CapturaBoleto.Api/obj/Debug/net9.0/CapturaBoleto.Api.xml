@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CapturaBoleto.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Refit.Implementation.Generated">
+            <inheritdoc />
+        </member>
+        <member name="T:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService">
+            <inheritdoc />
+        </member>
+        <member name="P:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService.Client">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService.#ctor(System.Net.Http.HttpClient,Refit.IRequestBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService.GetMallCredentialAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService.GetMallCredentialRawAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService.CapturaBoleto#Api#Services#IPublicApiService#GetMallCredentialAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.CapturaBoletoApiServicesIPublicApiService.CapturaBoleto#Api#Services#IPublicApiService#GetMallCredentialRawAsync">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

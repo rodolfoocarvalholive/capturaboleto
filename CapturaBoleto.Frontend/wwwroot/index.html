@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CapturaBoleto Frontend</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .container {
+            background: #fff;
+            padding: 2.5rem 2rem;
+            border-radius: 1.2rem;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        h1 {
+            font-size: 1.6rem;
+            color: #222;
+            margin: 0 0 0.5em 0;
+        }
+        button {
+            background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+            color: #fff;
+            border: none;
+            border-radius: 0.5em;
+            padding: 0.8em 2em;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        button:active {
+            background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+        }
+        .status {
+            min-height: 1.5em;
+            color: #007bff;
+            font-size: 1em;
+            margin-top: 0.5em;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 1.2rem 0.5rem; }
+            h1 { font-size: 1.1rem; }
+            button { font-size: 1em; padding: 0.7em 1.2em; }
+        }
+    </style>
+    <script>
+        function abrirHtmlEmNovaAba() {
+            const status = document.getElementById('status');
+            status.textContent = 'Carregando...';
+            fetch('http://localhost:5000/api/capturaboleto/credentials/html-multiplan')
+                .then(response => {
+                    if (!response.ok) throw new Error('Erro ao buscar HTML');
+                    return response.text();
+                })
+                .then(html => {
+                    const novaJanela = window.open();
+                    if (novaJanela) {
+                        novaJanela.document.write(html);
+                        novaJanela.document.close();
+                        status.textContent = '';
+                    } else {
+                        status.textContent = 'N�o foi poss�vel abrir nova aba. Permita pop-ups.';
+                    }
+                })
+                .catch(() => {
+                    status.textContent = 'Erro ao buscar ou abrir o HTML.';
+                });
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Captura de HTML Multiplan</h1>
+        <button onclick="abrirHtmlEmNovaAba()">Abrir HTML capturado em nova guia</button>
+        <div class="status" id="status"></div>
+    </div>
+</body>
+</html>

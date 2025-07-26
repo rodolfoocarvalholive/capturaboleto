@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "GetBoletosCobranca",
+    "RelativePath": "api/CapturaBoleto/boletos-cobranca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CapturaBoleto.Api.Controllers.BoletosCobrancaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "GetBoletosCobrancaArquivos",
+    "RelativePath": "api/CapturaBoleto/boletos-cobranca-arquivos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CapturaBoleto.Api.Controllers.BoletosCobrancaArquivosRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "GetMallCredentials",
+    "RelativePath": "api/CapturaBoleto/credentials",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CapturaBoleto.Api.Services.MallCredential, CapturaBoleto.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "GetMallCredentialsHtml",
+    "RelativePath": "api/CapturaBoleto/credentials/html",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "GetMultiplanCredentialsHtml",
+    "RelativePath": "api/CapturaBoleto/credentials/html-multiplan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "GetMultiplanCredentialsHtmlViewer",
+    "RelativePath": "api/CapturaBoleto/credentials/html-multiplan-viewer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CapturaBoleto.Api.Controllers.CapturaBoletoController",
+    "Method": "LoginMultiplan",
+    "RelativePath": "api/CapturaBoleto/login-multiplan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "CapturaBoleto.Api.Controllers.MultiplanLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense para saber os atributos possíveis.
+    // Passe o mouse para ver as descrições dos existentes atributos.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CapturaBoleto.Api - Debug com Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:5097/swagger/index.html",
+            "webRoot": "${workspaceFolder}/CapturaBoleto.Api",
+            "preLaunchTask": "build",
+            "sourceMaps": true
+        },
+        {
+            "name": "CapturaBoleto.Api - .NET Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CapturaBoleto.Api/bin/Debug/net9.0/CapturaBoleto.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CapturaBoleto.Api",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "Now listening on: (https?://\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    ]
+}

@@ -6,10 +6,15 @@ C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\CapturaBoleto.Api.dep
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\CapturaBoleto.Api.runtimeconfig.json
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\CapturaBoleto.Api.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\CapturaBoleto.Api.pdb
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\CapturaBoleto.Api.xml
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\HtmlAgilityPack.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Refit.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Refit.HttpClientFactory.dll
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaBoleto.Api.csproj.AssemblyReference.cache
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaBoleto.Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -30,6 +35,8 @@ C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\staticwebassets.build
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaB.3A72B08A.Up2Date
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaBoleto.Api.dll
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\refint\CapturaBoleto.Api.dll
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaBoleto.Api.xml
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaBoleto.Api.pdb
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\CapturaBoleto.Api.genruntimeconfig.cache
 C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\ref\CapturaBoleto.Api.dll
+C:\Git\DG\capturaboleto\CapturaBoleto.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
